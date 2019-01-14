@@ -1,2 +1,3 @@
 # Summary
-project summary 
+Summary 用于记录在iOS开发过程中，学习到的技能和做过的比较有意思的东西，千里之行始于足下。
+
