@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E9B3BAA1279D891DCBF6ACF /* libPods-SummeryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242035D0A65DC18973CA6FD8 /* libPods-SummeryTests.a */; };
+		2E17293A51DEE467C45EC92D /* libPods-Summary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8761662BA9A9B125490F99BB /* libPods-Summary.a */; };
 		4D07C41C21B21C13004802F9 /* LGGBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07C41B21B21C13004802F9 /* LGGBlockViewController.m */; };
 		4D4016B721E22A5100FBE917 /* LGGNSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4016B621E22A5100FBE917 /* LGGNSThreadViewController.m */; };
 		4D4381B421A2627B00D5BC85 /* LGGSingletonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4381B321A2627B00D5BC85 /* LGGSingletonManager.m */; };
@@ -169,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E17293A51DEE467C45EC92D /* libPods-Summary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
