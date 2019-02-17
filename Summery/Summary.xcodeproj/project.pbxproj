@@ -34,9 +34,16 @@
 		4D51693C21EB78530047446F /* LGGBase64ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D51693B21EB78530047446F /* LGGBase64ViewController.m */; };
 		4D51694321EB7FFA0047446F /* LGGMD5|SHAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D51694221EB7FFA0047446F /* LGGMD5|SHAViewController.m */; };
 		4D51694621EB81AD0047446F /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D51694421EB81AD0047446F /* NSString+Hash.m */; };
+		4D86673A21ED940A0026829A /* LGGAFNetworkUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86673921ED940A0026829A /* LGGAFNetworkUseViewController.m */; };
+		4D86673D21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86673C21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.m */; };
+		4D86674521F08B820026829A /* LGGRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86674421F08B820026829A /* LGGRuntimeViewController.m */; };
+		4D86674821F0AC520026829A /* UIView+defaultBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86674721F0AC520026829A /* UIView+defaultBackground.m */; };
 		4D9E524621C521EC0072422C /* LGGRunloopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E524521C521EC0072422C /* LGGRunloopViewController.m */; };
 		4D9E524921C788370072422C /* LGGPermanentThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E524821C788370072422C /* LGGPermanentThread.m */; };
 		4D9E524C21C921730072422C /* LGGPermanentCFThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E524B21C921730072422C /* LGGPermanentCFThread.m */; };
+		4DB95D752213C2A000302C2C /* LGGPerfromanceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB95D732213C2A000302C2C /* LGGPerfromanceTableViewController.m */; };
+		4DB95D782213C2C000302C2C /* LGGImageRenderingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB95D772213C2C000302C2C /* LGGImageRenderingTableViewCell.m */; };
+		4DB95D7B221574B300302C2C /* rendering.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB95D7A221574B300302C2C /* rendering.png */; };
 		4DCCD0BC219C602100EB7245 /* LGGDIYFunctionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCD0BA219C602100EB7245 /* LGGDIYFunctionTableViewController.m */; };
 		4DCCD0C6219D4D3400EB7245 /* LGGGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCD0C5219D4D3400EB7245 /* LGGGCDViewController.m */; };
 		4DCCD0CC219EDA8D00EB7245 /* LGGAutoreleaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCD0CB219EDA8D00EB7245 /* LGGAutoreleaseViewController.m */; };
@@ -125,12 +132,25 @@
 		4D51694221EB7FFA0047446F /* LGGMD5|SHAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LGGMD5|SHAViewController.m"; sourceTree = "<group>"; };
 		4D51694421EB81AD0047446F /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 		4D51694521EB81AD0047446F /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		4D86673821ED940A0026829A /* LGGAFNetworkUseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGAFNetworkUseViewController.h; sourceTree = "<group>"; };
+		4D86673921ED940A0026829A /* LGGAFNetworkUseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGAFNetworkUseViewController.m; sourceTree = "<group>"; };
+		4D86673B21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGAFNetWorkTextHtmlViewController.h; sourceTree = "<group>"; };
+		4D86673C21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGAFNetWorkTextHtmlViewController.m; sourceTree = "<group>"; };
+		4D86674321F08B820026829A /* LGGRuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGRuntimeViewController.h; sourceTree = "<group>"; };
+		4D86674421F08B820026829A /* LGGRuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGRuntimeViewController.m; sourceTree = "<group>"; };
+		4D86674621F0AC520026829A /* UIView+defaultBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+defaultBackground.h"; sourceTree = "<group>"; };
+		4D86674721F0AC520026829A /* UIView+defaultBackground.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+defaultBackground.m"; sourceTree = "<group>"; };
 		4D9E524421C521EC0072422C /* LGGRunloopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGRunloopViewController.h; sourceTree = "<group>"; };
 		4D9E524521C521EC0072422C /* LGGRunloopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGRunloopViewController.m; sourceTree = "<group>"; };
 		4D9E524721C788370072422C /* LGGPermanentThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGPermanentThread.h; sourceTree = "<group>"; };
 		4D9E524821C788370072422C /* LGGPermanentThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGPermanentThread.m; sourceTree = "<group>"; };
 		4D9E524A21C921730072422C /* LGGPermanentCFThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGPermanentCFThread.h; sourceTree = "<group>"; };
 		4D9E524B21C921730072422C /* LGGPermanentCFThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGPermanentCFThread.m; sourceTree = "<group>"; };
+		4DB95D722213C2A000302C2C /* LGGPerfromanceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGPerfromanceTableViewController.h; sourceTree = "<group>"; };
+		4DB95D732213C2A000302C2C /* LGGPerfromanceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGPerfromanceTableViewController.m; sourceTree = "<group>"; };
+		4DB95D762213C2C000302C2C /* LGGImageRenderingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGImageRenderingTableViewCell.h; sourceTree = "<group>"; };
+		4DB95D772213C2C000302C2C /* LGGImageRenderingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGImageRenderingTableViewCell.m; sourceTree = "<group>"; };
+		4DB95D7A221574B300302C2C /* rendering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rendering.png; sourceTree = "<group>"; };
 		4DCCD0B9219C602100EB7245 /* LGGDIYFunctionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGDIYFunctionTableViewController.h; sourceTree = "<group>"; };
 		4DCCD0BA219C602100EB7245 /* LGGDIYFunctionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGDIYFunctionTableViewController.m; sourceTree = "<group>"; };
 		4DCCD0C4219D4D3400EB7245 /* LGGGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGGCDViewController.h; sourceTree = "<group>"; };
@@ -442,6 +462,10 @@
 		4D51692721E74CD30047446F /* AFNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				4D86673821ED940A0026829A /* LGGAFNetworkUseViewController.h */,
+				4D86673921ED940A0026829A /* LGGAFNetworkUseViewController.m */,
+				4D86673B21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.h */,
+				4D86673C21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.m */,
 			);
 			path = AFNetwork;
 			sourceTree = "<group>";
@@ -491,6 +515,25 @@
 			path = "DES|3DES|AES对称加密";
 			sourceTree = "<group>";
 		};
+		4D86673E21F084BF0026829A /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				4D86674221F08B820026829A /* 类别添加属性 */,
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		4D86674221F08B820026829A /* 类别添加属性 */ = {
+			isa = PBXGroup;
+			children = (
+				4D86674321F08B820026829A /* LGGRuntimeViewController.h */,
+				4D86674421F08B820026829A /* LGGRuntimeViewController.m */,
+				4D86674621F0AC520026829A /* UIView+defaultBackground.h */,
+				4D86674721F0AC520026829A /* UIView+defaultBackground.m */,
+			);
+			path = "类别添加属性";
+			sourceTree = "<group>";
+		};
 		4D9E524321C3BDB20072422C /* Runloop */ = {
 			isa = PBXGroup;
 			children = (
@@ -502,6 +545,50 @@
 				4D9E524B21C921730072422C /* LGGPermanentCFThread.m */,
 			);
 			path = Runloop;
+			sourceTree = "<group>";
+		};
+		4DB95D6C2213C1F600302C2C /* performance */ = {
+			isa = PBXGroup;
+			children = (
+				4DB95D6D2213C1F600302C2C /* 图片圆角 */,
+			);
+			path = performance;
+			sourceTree = "<group>";
+		};
+		4DB95D6D2213C1F600302C2C /* 图片圆角 */ = {
+			isa = PBXGroup;
+			children = (
+				4DB95D79221573CD00302C2C /* resource */,
+				4DB95D712213C2A000302C2C /* controller */,
+				4DB95D742213C2A000302C2C /* view */,
+			);
+			path = "图片圆角";
+			sourceTree = "<group>";
+		};
+		4DB95D712213C2A000302C2C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DB95D722213C2A000302C2C /* LGGPerfromanceTableViewController.h */,
+				4DB95D732213C2A000302C2C /* LGGPerfromanceTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4DB95D742213C2A000302C2C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4DB95D762213C2C000302C2C /* LGGImageRenderingTableViewCell.h */,
+				4DB95D772213C2C000302C2C /* LGGImageRenderingTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4DB95D79221573CD00302C2C /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				4DB95D7A221574B300302C2C /* rendering.png */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 		4DCCD0B2219C602100EB7245 /* Modules */ = {
@@ -516,6 +603,8 @@
 		4DCCD0B3219C602100EB7245 /* KnowledgePage */ = {
 			isa = PBXGroup;
 			children = (
+				4DB95D6C2213C1F600302C2C /* performance */,
+				4D86673E21F084BF0026829A /* runtime */,
 				4D51693521EB780E0047446F /* 加密 */,
 				4D51692421E74C7D0047446F /* 网络 */,
 				4D51691321E6F33C0047446F /* BasicKnowledge */,
@@ -797,6 +886,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB95D7B221574B300302C2C /* rendering.png in Resources */,
 				4D51692321E6F33C0047446F /* KnowledgeList.plist in Resources */,
 				4DFCBC18219927E900DA1E6C /* Assets.xcassets in Resources */,
 				4D51693421E9C8BA0047446F /* jsonPrase.geojson in Resources */,
@@ -889,10 +979,13 @@
 				4D4D408621DCB12A008A2A2A /* LGGMVVMViewModel.m in Sources */,
 				4D4D406D21DC8F04008A2A2A /* LGGMVCModel.m in Sources */,
 				4D4381C521A4D76700D5BC85 /* LGGBaseViewController.m in Sources */,
+				4D86674521F08B820026829A /* LGGRuntimeViewController.m in Sources */,
 				4DCCD0C6219D4D3400EB7245 /* LGGGCDViewController.m in Sources */,
 				4D51692021E6F33C0047446F /* LGGKnowledgeClassifyModel.m in Sources */,
 				4DCCD0CC219EDA8D00EB7245 /* LGGAutoreleaseViewController.m in Sources */,
+				4DB95D782213C2C000302C2C /* LGGImageRenderingTableViewCell.m in Sources */,
 				4D4D408321DCAB38008A2A2A /* LGGBasePresenter.m in Sources */,
+				4D86673A21ED940A0026829A /* LGGAFNetworkUseViewController.m in Sources */,
 				4D51692C21E74E870047446F /* LGGURLConnectionViewController.m in Sources */,
 				4D4D407321DC9065008A2A2A /* LGGMVVMViewController.m in Sources */,
 				4D4D407F21DCA345008A2A2A /* LGGMVPVViewProtocol.m in Sources */,
@@ -906,11 +999,14 @@
 				4DFCBC10219927E800DA1E6C /* AppDelegate.m in Sources */,
 				4D07C41C21B21C13004802F9 /* LGGBlockViewController.m in Sources */,
 				4D51694321EB7FFA0047446F /* LGGMD5|SHAViewController.m in Sources */,
+				4DB95D752213C2A000302C2C /* LGGPerfromanceTableViewController.m in Sources */,
 				4D9E524921C788370072422C /* LGGPermanentThread.m in Sources */,
+				4D86673D21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.m in Sources */,
 				4D4381B821A39BE600D5BC85 /* LGGExternStaticConst.m in Sources */,
 				4D4D408921DCB13C008A2A2A /* LGGMVVMModel.m in Sources */,
 				4D4016B721E22A5100FBE917 /* LGGNSThreadViewController.m in Sources */,
 				4D4D407621DC9C01008A2A2A /* LGGMVCViewController.m in Sources */,
+				4D86674821F0AC520026829A /* UIView+defaultBackground.m in Sources */,
 				4DCCD0BC219C602100EB7245 /* LGGDIYFunctionTableViewController.m in Sources */,
 				4D51691F21E6F33C0047446F /* LGGKnowledgeTableViewController.m in Sources */,
 			);
@@ -999,7 +1095,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1052,7 +1148,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1069,7 +1165,7 @@
 				DEVELOPMENT_TEAM = 5C672BHWSK;
 				GCC_PREFIX_HEADER = Summary/SummaryPrefixHeader.pch;
 				INFOPLIST_FILE = Summary/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1077,7 +1173,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gangSummery.www.Summery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited)/**";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"${SRCROOT}/**",
+				);
 			};
 			name = Debug;
 		};
@@ -1090,7 +1189,7 @@
 				DEVELOPMENT_TEAM = 5C672BHWSK;
 				GCC_PREFIX_HEADER = Summary/SummaryPrefixHeader.pch;
 				INFOPLIST_FILE = Summary/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1098,7 +1197,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gangSummery.www.Summery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited)/**";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"${SRCROOT}/**",
+				);
 			};
 			name = Release;
 		};
@@ -1190,7 +1292,7 @@
 				4DFCBC36219927E900DA1E6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4DFCBC37219927E900DA1E6C /* Build configuration list for PBXNativeTarget "Summary" */ = {
 			isa = XCConfigurationList;
@@ -1199,7 +1301,7 @@
 				4DFCBC39219927E900DA1E6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4DFCBC3A219927E900DA1E6C /* Build configuration list for PBXNativeTarget "SummaryTests" */ = {
 			isa = XCConfigurationList;
@@ -1208,7 +1310,7 @@
 				4DFCBC3C219927E900DA1E6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4DFCBC3D219927E900DA1E6C /* Build configuration list for PBXNativeTarget "SummaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -1217,7 +1319,7 @@
 				4DFCBC3F219927E900DA1E6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

@@ -36,6 +36,7 @@
     return [strData base64EncodedStringWithOptions:0];
 }
 
+//base64解码
 -(NSString *)base64Decode:(NSString * )string{
     NSData *strData = [[NSData alloc]initWithBase64EncodedString:string options:kNilOptions];
     return [[NSString alloc]initWithData:strData encoding:NSUTF8StringEncoding];

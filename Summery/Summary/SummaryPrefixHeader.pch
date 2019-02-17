@@ -9,6 +9,7 @@
 #ifndef SummaryPrefixHeader_pch
 #define SummaryPrefixHeader_pch
 #import <UIKit/UIKit.h>
+#import "masonry.h"
 #import "LGGKnowledgeClassifyModel.h"
 #import "LGGKnowledgeModelManager.h"
 #import "LGGBaseViewController.h"

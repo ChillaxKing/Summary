@@ -63,7 +63,7 @@
     //    NSString *utf8Str = imageUrl;
     
     //iOS9.0以前，带有中文参数，需要转码
-    //     NSString *utf8Str = [imageUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+//         NSString *utf8Str = [imageUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *url = [NSURL URLWithString:utf8Str];
     NSLog(@"%@",url);
     
