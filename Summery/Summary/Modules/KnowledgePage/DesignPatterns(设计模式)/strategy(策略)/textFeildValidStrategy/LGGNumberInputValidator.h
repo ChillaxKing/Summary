@@ -9,7 +9,6 @@
 #import "LGGInputValidator.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
 @interface LGGNumberInputValidator : LGGInputValidator
 
 @end

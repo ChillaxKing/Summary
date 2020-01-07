@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <uikit/uikit.h>
 NS_ASSUME_NONNULL_BEGIN
+//设置错误域
+static NSString *const InputValidatorErrorDomain = @"InputValidatorDomain";
 
 @interface LGGInputValidator : NSObject
 
+
+-(BOOL)validateTextFeild:(UITextField *)textFeild error:(NSError **)error;
 @end
 
 NS_ASSUME_NONNULL_END

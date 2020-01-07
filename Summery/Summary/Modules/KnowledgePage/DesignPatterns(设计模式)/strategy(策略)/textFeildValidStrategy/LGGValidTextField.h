@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LGGInputValidator.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LGGValidTextField : UITextField
 
+@property(nonatomic, strong) LGGInputValidator *inputValidator;
+
+-(BOOL)validate;
 @end
 
 NS_ASSUME_NONNULL_END
