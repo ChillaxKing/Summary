@@ -39,6 +39,13 @@
     //线程保活 点击屏幕，打印字符串
     self.thread = [[LGGPermanentThread alloc]init];
     self.cfThread = [[LGGPermanentCFThread alloc]init];
+    NSLog(@"nsinteger%lx,int%x ",NSIntegerMax,INT_MAX);
+    NSLog(@"主线程 同步队列1");
+    dispatch_sync(dispatch_get_main_queue(), ^{
+        NSLog(@"2");
+    });
+    NSLog(@"3");
+    
     
 }
 

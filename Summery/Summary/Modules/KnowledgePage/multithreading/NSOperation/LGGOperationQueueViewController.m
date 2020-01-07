@@ -14,6 +14,10 @@
 
 @implementation LGGOperationQueueViewController
 
++(void)load{
+    LGGKnowledgeClassifyModel *model = [[LGGKnowledgeClassifyModel alloc]initWithSuperClassify:@"multithreading" withTitle:@"NSOperationQueue" withClassName:@"LGGOperationQueueViewController"];
+    [[LGGKnowledgeModelManager shareManager]addModel:model];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

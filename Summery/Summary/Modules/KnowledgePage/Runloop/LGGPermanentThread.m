@@ -32,6 +32,7 @@
 -(instancetype)init{
     self = [super init];
     if (self) {
+        DLog(@"lggpermanentthread %@",[super class]);
         self.stopflag = NO;
         __weak typeof(self) weakSelf = self;
         

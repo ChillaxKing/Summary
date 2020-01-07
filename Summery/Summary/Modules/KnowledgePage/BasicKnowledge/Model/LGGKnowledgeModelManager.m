@@ -9,9 +9,17 @@
 static LGGKnowledgeModelManager*_shareManager = nil;
 @interface LGGKnowledgeModelManager()
 @property (nonatomic,strong)NSMutableDictionary *modelMultiDic;
+@property(nonatomic, strong,readwrite) NSString *aatest;
 @end
 @implementation LGGKnowledgeModelManager
+@synthesize aatest = _aatest;//当对getter setter 方法都重写后，需要使用@synthesize指定属性的变量名。
 
+-(void)setAatest:(NSString *)aatest{
+    _aatest = aatest;
+}
+- (NSString *)aatest{
+    return _aatest;
+}
 +(instancetype)shareManager{
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

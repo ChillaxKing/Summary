@@ -4,7 +4,7 @@
 //
 //  Created by 路岗 on 2019/3/20.
 //  Copyright © 2019年 Gang. All rights reserved.
-//
+//测试两个数求和
 
 #import "LGGUnitTestViewController.h"
 
@@ -13,7 +13,10 @@
 @end
 
 @implementation LGGUnitTestViewController
-
++(void)load{
+    LGGKnowledgeClassifyModel *model = [[LGGKnowledgeClassifyModel alloc]initWithSuperClassify:@"UnitTest" withTitle:@"单元测试" withClassName:@"LGGUnitTestViewController"];
+    [[LGGKnowledgeModelManager shareManager]addModel:model];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

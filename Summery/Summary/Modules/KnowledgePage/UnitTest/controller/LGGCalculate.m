@@ -10,4 +10,9 @@
 
 @implementation LGGCalculate
 
+
+
+- (NSInteger)sumOneNumber:(NSInteger)addend plus:(NSInteger)otherAddend{
+    return addend+otherAddend;
+}
 @end

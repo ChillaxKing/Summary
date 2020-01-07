@@ -11,12 +11,15 @@
 static NSString *const kcellIdentifier = @"KNOWLEDGECELLIDENTIFIER";
 @interface LGGKnowledgeTableViewController ()
 @property(nonatomic,strong)NSArray *tableSections;
+
+
 @end
 
 @implementation LGGKnowledgeTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kcellIdentifier] ;
     self.tableSections = [[LGGKnowledgeModelManager shareManager]sectionKeysArray];
     // Uncomment the following line to preserve selection between presentations.
@@ -100,7 +103,8 @@ static NSString *const kcellIdentifier = @"KNOWLEDGECELLIDENTIFIER";
     LGGKnowledgeClassifyModel *cellModel = [[[LGGKnowledgeModelManager shareManager]subArrayWithClassifyKey:key]objectAtIndex:indexPath.row]; 
     if (cellModel.className != nil) {
         
-        id viewcontroller = [[NSClassFromString(cellModel.className)alloc]init];
+        id viewcontroller;
+        viewcontroller = [[NSClassFromString(cellModel.className)alloc]init];
         if (self.navigationController.childViewControllers.count >= 1) {
             self.navigationController.hidesBottomBarWhenPushed = YES;
         }
