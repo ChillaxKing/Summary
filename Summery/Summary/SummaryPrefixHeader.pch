@@ -9,10 +9,21 @@
 #ifndef SummaryPrefixHeader_pch
 #define SummaryPrefixHeader_pch
 #import <UIKit/UIKit.h>
+#import <Objc/runtime.h>
+#import <Toast/Toast.h>
 #import "masonry.h"
 #import "LGGKnowledgeClassifyModel.h"
 #import "LGGKnowledgeModelManager.h"
 #import "LGGBaseViewController.h"
+
+
+#ifdef DEBUG
+
+#define DLog(...) NSLog(__VA_ARGS__)
+#else
+#define DLog(...) 
+
+#endif
 
 
 // Include any system framework and library headers here that should be included in all compilation units.

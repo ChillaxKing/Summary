@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E9B3BAA1279D891DCBF6ACF /* libPods-SummeryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242035D0A65DC18973CA6FD8 /* libPods-SummeryTests.a */; };
 		2E17293A51DEE467C45EC92D /* libPods-Summary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8761662BA9A9B125490F99BB /* libPods-Summary.a */; };
+		4D00ADEF239D1C4A00247FB9 /* LGGCopyProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D00ADEE239D1C4A00247FB9 /* LGGCopyProperty.m */; };
+		4D07580E223E569000914CE7 /* LGGAddMethodManualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07580D223E569000914CE7 /* LGGAddMethodManualViewController.m */; };
+		4D0758172242193E00914CE7 /* LGGValidTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0758162242193E00914CE7 /* LGGValidTextField.m */; };
+		4D07581A224219A300914CE7 /* LGGInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D075819224219A300914CE7 /* LGGInputValidator.m */; };
+		4D07581D22421C3B00914CE7 /* LGGNumberInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07581C22421C3B00914CE7 /* LGGNumberInputValidator.m */; };
 		4D07C41C21B21C13004802F9 /* LGGBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07C41B21B21C13004802F9 /* LGGBlockViewController.m */; };
+		4D3045B2225C2E9A009BD233 /* LGGExternStaticConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3045AE225C2E9A009BD233 /* LGGExternStaticConst.m */; };
+		4D3045B3225C2E9A009BD233 /* LGGCGrammerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3045B1225C2E9A009BD233 /* LGGCGrammerViewController.m */; };
+		4D392F002264B84C00FEEE7D /* LGGCustemKeyBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D392EFF2264B84C00FEEE7D /* LGGCustemKeyBoardViewController.m */; };
 		4D4016B721E22A5100FBE917 /* LGGNSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4016B621E22A5100FBE917 /* LGGNSThreadViewController.m */; };
+		4D4194B122511AC500D0C4FE /* LGGUIViewTransFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4194B022511AC500D0C4FE /* LGGUIViewTransFormViewController.xib */; };
+		4D4194BC225127EB00D0C4FE /* LGGBitMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4194BA225127EB00D0C4FE /* LGGBitMapViewController.m */; };
+		4D4194BD225127EB00D0C4FE /* LGGBitMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4194BB225127EB00D0C4FE /* LGGBitMapViewController.xib */; };
 		4D4381B421A2627B00D5BC85 /* LGGSingletonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4381B321A2627B00D5BC85 /* LGGSingletonManager.m */; };
-		4D4381B821A39BE600D5BC85 /* LGGExternStaticConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4381B721A39BE600D5BC85 /* LGGExternStaticConst.m */; };
 		4D4381C521A4D76700D5BC85 /* LGGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4381C421A4D76700D5BC85 /* LGGBaseViewController.m */; };
 		4D4D406D21DC8F04008A2A2A /* LGGMVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D406C21DC8F04008A2A2A /* LGGMVCModel.m */; };
 		4D4D407021DC9051008A2A2A /* LGGMVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D406F21DC9051008A2A2A /* LGGMVPViewController.m */; };
@@ -34,44 +43,63 @@
 		4D51693C21EB78530047446F /* LGGBase64ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D51693B21EB78530047446F /* LGGBase64ViewController.m */; };
 		4D51694321EB7FFA0047446F /* LGGMD5|SHAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D51694221EB7FFA0047446F /* LGGMD5|SHAViewController.m */; };
 		4D51694621EB81AD0047446F /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D51694421EB81AD0047446F /* NSString+Hash.m */; };
+		4D5EA7FD22422EDD00DE1CEB /* LGGAlphabetInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EA7FC22422EDD00DE1CEB /* LGGAlphabetInputValidator.m */; };
+		4D5EA8012242329C00DE1CEB /* LGGStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EA7FF2242329C00DE1CEB /* LGGStrategyViewController.m */; };
+		4D5EA809224281AE00DE1CEB /* LGGUnitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EA808224281AE00DE1CEB /* LGGUnitTestViewController.m */; };
+		4D5EA80D2242843000DE1CEB /* LGGCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EA80C2242843000DE1CEB /* LGGCalculate.m */; };
+		4D5EA818224289EB00DE1CEB /* SummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EA817224289EB00DE1CEB /* SummaryTests.m */; };
+		4D64A9E822510DC2000423BE /* LGGUIViewTransFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D64A9E722510DC1000423BE /* LGGUIViewTransFormViewController.m */; };
+		4D66EF2923AB309B00EC1945 /* LGGClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D66EF2823AB309B00EC1945 /* LGGClockViewController.m */; };
+		4D66EF2B23AB30EE00EC1945 /* LGGClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EF2A23AB30EE00EC1945 /* LGGClockViewController.xib */; };
+		4D66EF3123B492CB00EC1945 /* LGGMirrorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D66EF3023B492CB00EC1945 /* LGGMirrorViewController.m */; };
+		4D66EF3623B4E86900EC1945 /* LGGTransform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D66EF3523B4E86900EC1945 /* LGGTransform3DViewController.m */; };
+		4D66EF3A23BAE95600EC1945 /* LGGExchageFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D66EF3923BAE95600EC1945 /* LGGExchageFunctionViewController.m */; };
+		4D66EF3C23BAE9B500EC1945 /* LGGExchageFunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EF3B23BAE9B500EC1945 /* LGGExchageFunctionViewController.xib */; };
+		4D66EF4223BB5EF000EC1945 /* LGGDicTransferModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D66EF4023BB5EEF00EC1945 /* LGGDicTransferModelViewController.m */; };
+		4D66EF4323BB5EF000EC1945 /* LGGDicTransferModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EF4123BB5EF000EC1945 /* LGGDicTransferModelViewController.xib */; };
+		4D66EF4723BB66A800EC1945 /* LGGRumtimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D66EF4623BB66A800EC1945 /* LGGRumtimeModel.m */; };
 		4D86673A21ED940A0026829A /* LGGAFNetworkUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86673921ED940A0026829A /* LGGAFNetworkUseViewController.m */; };
 		4D86673D21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86673C21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.m */; };
 		4D86674521F08B820026829A /* LGGRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86674421F08B820026829A /* LGGRuntimeViewController.m */; };
 		4D86674821F0AC520026829A /* UIView+defaultBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86674721F0AC520026829A /* UIView+defaultBackground.m */; };
+		4D9DA03F22428BEC00820B76 /* LGGCalculateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9DA03E22428BEC00820B76 /* LGGCalculateTests.m */; };
+		4D9DA04022428C1900820B76 /* LGGCalculate.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EA80B2242843000DE1CEB /* LGGCalculate.h */; };
+		4D9DA04122428C1900820B76 /* LGGCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EA80C2242843000DE1CEB /* LGGCalculate.m */; };
+		4D9DA077224A6D5400820B76 /* LGGCopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9DA076224A6D5400820B76 /* LGGCopyViewController.m */; };
 		4D9E524621C521EC0072422C /* LGGRunloopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E524521C521EC0072422C /* LGGRunloopViewController.m */; };
 		4D9E524921C788370072422C /* LGGPermanentThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E524821C788370072422C /* LGGPermanentThread.m */; };
 		4D9E524C21C921730072422C /* LGGPermanentCFThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E524B21C921730072422C /* LGGPermanentCFThread.m */; };
+		4DABCD8423960C9300948AF6 /* LGGOperationQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DABCD8323960C9300948AF6 /* LGGOperationQueueViewController.m */; };
+		4DB739BE2222D47F0028FA60 /* TwoSum.html in Resources */ = {isa = PBXBuildFile; fileRef = 4DB739BD2222D47F0028FA60 /* TwoSum.html */; };
+		4DB739C12222D4A50028FA60 /* LGGArithmeticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB739C02222D4A50028FA60 /* LGGArithmeticViewController.m */; };
+		4DB739C7222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB739C5222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.m */; };
+		4DB739C8222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB739C6222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.xib */; };
+		4DB739CA222A39BE0028FA60 /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB739C9222A39BE0028FA60 /* aa.png */; };
+		4DB739CC222A3CBA0028FA60 /* bb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB739CB222A3CBA0028FA60 /* bb@2x.png */; };
+		4DB739CF222AB81F0028FA60 /* LGGRoundImageRenderTableViewCell+load.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB739CE222AB81F0028FA60 /* LGGRoundImageRenderTableViewCell+load.m */; };
+		4DB739E0223E06AA0028FA60 /* UIViewController+statisticsHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB739DE223E06AA0028FA60 /* UIViewController+statisticsHook.m */; };
+		4DB739E4223E07E70028FA60 /* LGGAddMethodManual.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB739E3223E07E70028FA60 /* LGGAddMethodManual.m */; };
 		4DB95D752213C2A000302C2C /* LGGPerfromanceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB95D732213C2A000302C2C /* LGGPerfromanceTableViewController.m */; };
-		4DB95D782213C2C000302C2C /* LGGImageRenderingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB95D772213C2C000302C2C /* LGGImageRenderingTableViewCell.m */; };
-		4DB95D7B221574B300302C2C /* rendering.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB95D7A221574B300302C2C /* rendering.png */; };
+		4DB95D7B221574B300302C2C /* rendering@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB95D7A221574B300302C2C /* rendering@2x.png */; };
 		4DCCD0BC219C602100EB7245 /* LGGDIYFunctionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCD0BA219C602100EB7245 /* LGGDIYFunctionTableViewController.m */; };
 		4DCCD0C6219D4D3400EB7245 /* LGGGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCD0C5219D4D3400EB7245 /* LGGGCDViewController.m */; };
 		4DCCD0CC219EDA8D00EB7245 /* LGGAutoreleaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCD0CB219EDA8D00EB7245 /* LGGAutoreleaseViewController.m */; };
+		4DDEBD7C23A9D0AC00353173 /* LGGCAlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEBD7B23A9D0AC00353173 /* LGGCAlayerViewController.m */; };
+		4DDEBD8023A9D26C00353173 /* jingtian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEBD7F23A9D26C00353173 /* jingtian.jpg */; };
 		4DFCBC10219927E800DA1E6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFCBC0F219927E800DA1E6C /* AppDelegate.m */; };
 		4DFCBC13219927E800DA1E6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFCBC12219927E800DA1E6C /* ViewController.m */; };
 		4DFCBC18219927E900DA1E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFCBC17219927E900DA1E6C /* Assets.xcassets */; };
 		4DFCBC1E219927E900DA1E6C /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DFCBC1D219927E900DA1E6C /* main.mm */; };
-		4DFCBC28219927E900DA1E6C /* SummeryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFCBC27219927E900DA1E6C /* SummeryTests.m */; };
-		4DFCBC33219927E900DA1E6C /* SummeryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFCBC32219927E900DA1E6C /* SummeryUITests.m */; };
-		B0B548C51CFF1477DDD7CCBD /* libPods-SummeryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0518E11543BCC9A3F341CC /* libPods-SummeryUITests.a */; };
-		B5FEBF456926CEE5298E51F6 /* libPods-SummaryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 479CCBAFBBF658D09AB0F42D /* libPods-SummaryTests.a */; };
-		F3BAA085564AA9195F65FFC3 /* libPods-SummaryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A07A5BAA5DCA6471064BC5C /* libPods-SummaryUITests.a */; };
+		5F9C77F307C21FA8A2198F95 /* libPods-SummaryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 479CCBAFBBF658D09AB0F42D /* libPods-SummaryTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4DFCBC24219927E900DA1E6C /* PBXContainerItemProxy */ = {
+		4D5EA81A224289EB00DE1CEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4DFCBC03219927E800DA1E6C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4DFCBC0A219927E800DA1E6C;
-			remoteInfo = Summery;
-		};
-		4DFCBC2F219927E900DA1E6C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4DFCBC03219927E800DA1E6C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4DFCBC0A219927E800DA1E6C;
-			remoteInfo = Summery;
+			remoteInfo = Summary;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -82,16 +110,34 @@
 		46D51DECE1BB2CE2EE1D6202 /* Pods-SummaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummaryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SummaryTests/Pods-SummaryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		479CCBAFBBF658D09AB0F42D /* libPods-SummaryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SummaryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7FFE119C6C899C9948FF7B /* Pods-SummaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummaryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SummaryUITests/Pods-SummaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D00ADED239D1C4A00247FB9 /* LGGCopyProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGCopyProperty.h; sourceTree = "<group>"; };
+		4D00ADEE239D1C4A00247FB9 /* LGGCopyProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGCopyProperty.m; sourceTree = "<group>"; };
+		4D07580C223E569000914CE7 /* LGGAddMethodManualViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGAddMethodManualViewController.h; sourceTree = "<group>"; };
+		4D07580D223E569000914CE7 /* LGGAddMethodManualViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGAddMethodManualViewController.m; sourceTree = "<group>"; };
+		4D0758152242193E00914CE7 /* LGGValidTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGValidTextField.h; sourceTree = "<group>"; };
+		4D0758162242193E00914CE7 /* LGGValidTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGValidTextField.m; sourceTree = "<group>"; };
+		4D075818224219A300914CE7 /* LGGInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGInputValidator.h; sourceTree = "<group>"; };
+		4D075819224219A300914CE7 /* LGGInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGInputValidator.m; sourceTree = "<group>"; };
+		4D07581B22421C3B00914CE7 /* LGGNumberInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGNumberInputValidator.h; sourceTree = "<group>"; };
+		4D07581C22421C3B00914CE7 /* LGGNumberInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGNumberInputValidator.m; sourceTree = "<group>"; };
 		4D07C41821B01D70004802F9 /* LGGAutoreleaseViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGAutoreleaseViewController.cpp; sourceTree = "<group>"; };
 		4D07C41A21B21C13004802F9 /* LGGBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGBlockViewController.h; sourceTree = "<group>"; };
 		4D07C41B21B21C13004802F9 /* LGGBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGBlockViewController.m; sourceTree = "<group>"; };
+		4D3045AE225C2E9A009BD233 /* LGGExternStaticConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGExternStaticConst.m; sourceTree = "<group>"; };
+		4D3045AF225C2E9A009BD233 /* LGGCGrammerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGCGrammerViewController.h; sourceTree = "<group>"; };
+		4D3045B0225C2E9A009BD233 /* LGGExternStaticConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGExternStaticConst.h; sourceTree = "<group>"; };
+		4D3045B1225C2E9A009BD233 /* LGGCGrammerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGCGrammerViewController.m; sourceTree = "<group>"; };
+		4D392EFE2264B84C00FEEE7D /* LGGCustemKeyBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGCustemKeyBoardViewController.h; sourceTree = "<group>"; };
+		4D392EFF2264B84C00FEEE7D /* LGGCustemKeyBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGCustemKeyBoardViewController.m; sourceTree = "<group>"; };
 		4D4016B521E22A5100FBE917 /* LGGNSThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGNSThreadViewController.h; sourceTree = "<group>"; };
 		4D4016B621E22A5100FBE917 /* LGGNSThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGNSThreadViewController.m; sourceTree = "<group>"; };
 		4D4016B821E22F7800FBE917 /* SummaryPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummaryPrefixHeader.pch; sourceTree = "<group>"; };
+		4D4194B022511AC500D0C4FE /* LGGUIViewTransFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGGUIViewTransFormViewController.xib; sourceTree = "<group>"; };
+		4D4194B9225127EB00D0C4FE /* LGGBitMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGBitMapViewController.h; sourceTree = "<group>"; };
+		4D4194BA225127EB00D0C4FE /* LGGBitMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGBitMapViewController.m; sourceTree = "<group>"; };
+		4D4194BB225127EB00D0C4FE /* LGGBitMapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGGBitMapViewController.xib; sourceTree = "<group>"; };
 		4D4381B221A2627B00D5BC85 /* LGGSingletonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGSingletonManager.h; sourceTree = "<group>"; };
 		4D4381B321A2627B00D5BC85 /* LGGSingletonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGSingletonManager.m; sourceTree = "<group>"; };
-		4D4381B621A39BE600D5BC85 /* LGGExternStaticConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGExternStaticConst.h; sourceTree = "<group>"; };
-		4D4381B721A39BE600D5BC85 /* LGGExternStaticConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGExternStaticConst.m; sourceTree = "<group>"; };
 		4D4381C321A4D76700D5BC85 /* LGGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGBaseViewController.h; sourceTree = "<group>"; };
 		4D4381C421A4D76700D5BC85 /* LGGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGBaseViewController.m; sourceTree = "<group>"; };
 		4D4D406B21DC8F04008A2A2A /* LGGMVCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGMVCModel.h; sourceTree = "<group>"; };
@@ -132,6 +178,35 @@
 		4D51694221EB7FFA0047446F /* LGGMD5|SHAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LGGMD5|SHAViewController.m"; sourceTree = "<group>"; };
 		4D51694421EB81AD0047446F /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 		4D51694521EB81AD0047446F /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		4D5EA7FB22422EDD00DE1CEB /* LGGAlphabetInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGAlphabetInputValidator.h; sourceTree = "<group>"; };
+		4D5EA7FC22422EDD00DE1CEB /* LGGAlphabetInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGAlphabetInputValidator.m; sourceTree = "<group>"; };
+		4D5EA7FE2242329C00DE1CEB /* LGGStrategyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGStrategyViewController.h; sourceTree = "<group>"; };
+		4D5EA7FF2242329C00DE1CEB /* LGGStrategyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGStrategyViewController.m; sourceTree = "<group>"; };
+		4D5EA807224281AE00DE1CEB /* LGGUnitTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGUnitTestViewController.h; sourceTree = "<group>"; };
+		4D5EA808224281AE00DE1CEB /* LGGUnitTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGUnitTestViewController.m; sourceTree = "<group>"; };
+		4D5EA80B2242843000DE1CEB /* LGGCalculate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGCalculate.h; sourceTree = "<group>"; };
+		4D5EA80C2242843000DE1CEB /* LGGCalculate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGCalculate.m; sourceTree = "<group>"; };
+		4D5EA815224289EB00DE1CEB /* SummaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5EA817224289EB00DE1CEB /* SummaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummaryTests.m; sourceTree = "<group>"; };
+		4D5EA819224289EB00DE1CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D64A9E622510DC1000423BE /* LGGUIViewTransFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGUIViewTransFormViewController.h; sourceTree = "<group>"; };
+		4D64A9E722510DC1000423BE /* LGGUIViewTransFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGUIViewTransFormViewController.m; sourceTree = "<group>"; };
+		4D66EF2723AB309B00EC1945 /* LGGClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGClockViewController.h; sourceTree = "<group>"; };
+		4D66EF2823AB309B00EC1945 /* LGGClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGClockViewController.m; sourceTree = "<group>"; };
+		4D66EF2A23AB30EE00EC1945 /* LGGClockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGGClockViewController.xib; sourceTree = "<group>"; };
+		4D66EF2F23B492CB00EC1945 /* LGGMirrorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGMirrorViewController.h; sourceTree = "<group>"; };
+		4D66EF3023B492CB00EC1945 /* LGGMirrorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGMirrorViewController.m; sourceTree = "<group>"; };
+		4D66EF3423B4E86900EC1945 /* LGGTransform3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGTransform3DViewController.h; sourceTree = "<group>"; };
+		4D66EF3523B4E86900EC1945 /* LGGTransform3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGTransform3DViewController.m; sourceTree = "<group>"; };
+		4D66EF3823BAE95600EC1945 /* LGGExchageFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGExchageFunctionViewController.h; sourceTree = "<group>"; };
+		4D66EF3923BAE95600EC1945 /* LGGExchageFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGExchageFunctionViewController.m; sourceTree = "<group>"; };
+		4D66EF3B23BAE9B500EC1945 /* LGGExchageFunctionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGGExchageFunctionViewController.xib; sourceTree = "<group>"; };
+		4D66EF3F23BB5EEF00EC1945 /* LGGDicTransferModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGDicTransferModelViewController.h; sourceTree = "<group>"; };
+		4D66EF4023BB5EEF00EC1945 /* LGGDicTransferModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGDicTransferModelViewController.m; sourceTree = "<group>"; };
+		4D66EF4123BB5EF000EC1945 /* LGGDicTransferModelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGGDicTransferModelViewController.xib; sourceTree = "<group>"; };
+		4D66EF4423BB64A000EC1945 /* DicTransModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DicTransModel.json; sourceTree = "<group>"; };
+		4D66EF4523BB66A800EC1945 /* LGGRumtimeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGRumtimeModel.h; sourceTree = "<group>"; };
+		4D66EF4623BB66A800EC1945 /* LGGRumtimeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGRumtimeModel.m; sourceTree = "<group>"; };
 		4D86673821ED940A0026829A /* LGGAFNetworkUseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGAFNetworkUseViewController.h; sourceTree = "<group>"; };
 		4D86673921ED940A0026829A /* LGGAFNetworkUseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGAFNetworkUseViewController.m; sourceTree = "<group>"; };
 		4D86673B21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGAFNetWorkTextHtmlViewController.h; sourceTree = "<group>"; };
@@ -140,23 +215,45 @@
 		4D86674421F08B820026829A /* LGGRuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGRuntimeViewController.m; sourceTree = "<group>"; };
 		4D86674621F0AC520026829A /* UIView+defaultBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+defaultBackground.h"; sourceTree = "<group>"; };
 		4D86674721F0AC520026829A /* UIView+defaultBackground.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+defaultBackground.m"; sourceTree = "<group>"; };
+		4D9DA03E22428BEC00820B76 /* LGGCalculateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGCalculateTests.m; sourceTree = "<group>"; };
+		4D9DA06F2249BC7500820B76 /* MyPrictisePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPrictisePlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4D9DA0702249BD0E00820B76 /* MyDataStructurePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyDataStructurePlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4D9DA075224A6D5400820B76 /* LGGCopyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGCopyViewController.h; sourceTree = "<group>"; };
+		4D9DA076224A6D5400820B76 /* LGGCopyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGCopyViewController.m; sourceTree = "<group>"; };
 		4D9E524421C521EC0072422C /* LGGRunloopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGRunloopViewController.h; sourceTree = "<group>"; };
 		4D9E524521C521EC0072422C /* LGGRunloopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGRunloopViewController.m; sourceTree = "<group>"; };
 		4D9E524721C788370072422C /* LGGPermanentThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGPermanentThread.h; sourceTree = "<group>"; };
 		4D9E524821C788370072422C /* LGGPermanentThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGPermanentThread.m; sourceTree = "<group>"; };
 		4D9E524A21C921730072422C /* LGGPermanentCFThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGPermanentCFThread.h; sourceTree = "<group>"; };
 		4D9E524B21C921730072422C /* LGGPermanentCFThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGPermanentCFThread.m; sourceTree = "<group>"; };
+		4DABCD8223960C9300948AF6 /* LGGOperationQueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGOperationQueueViewController.h; sourceTree = "<group>"; };
+		4DABCD8323960C9300948AF6 /* LGGOperationQueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGOperationQueueViewController.m; sourceTree = "<group>"; };
+		4DB739BD2222D47F0028FA60 /* TwoSum.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TwoSum.html; sourceTree = "<group>"; };
+		4DB739BF2222D4A50028FA60 /* LGGArithmeticViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGArithmeticViewController.h; sourceTree = "<group>"; };
+		4DB739C02222D4A50028FA60 /* LGGArithmeticViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGArithmeticViewController.m; sourceTree = "<group>"; };
+		4DB739C4222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGRoundImageRenderTableViewCell.h; sourceTree = "<group>"; };
+		4DB739C5222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGRoundImageRenderTableViewCell.m; sourceTree = "<group>"; };
+		4DB739C6222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGGRoundImageRenderTableViewCell.xib; sourceTree = "<group>"; };
+		4DB739C9222A39BE0028FA60 /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
+		4DB739CB222A3CBA0028FA60 /* bb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bb@2x.png"; sourceTree = "<group>"; };
+		4DB739CD222AB81F0028FA60 /* LGGRoundImageRenderTableViewCell+load.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LGGRoundImageRenderTableViewCell+load.h"; sourceTree = "<group>"; };
+		4DB739CE222AB81F0028FA60 /* LGGRoundImageRenderTableViewCell+load.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LGGRoundImageRenderTableViewCell+load.m"; sourceTree = "<group>"; };
+		4DB739DD223E06AA0028FA60 /* UIViewController+statisticsHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+statisticsHook.h"; sourceTree = "<group>"; };
+		4DB739DE223E06AA0028FA60 /* UIViewController+statisticsHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+statisticsHook.m"; sourceTree = "<group>"; };
+		4DB739E2223E07E70028FA60 /* LGGAddMethodManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGAddMethodManual.h; sourceTree = "<group>"; };
+		4DB739E3223E07E70028FA60 /* LGGAddMethodManual.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGAddMethodManual.m; sourceTree = "<group>"; };
 		4DB95D722213C2A000302C2C /* LGGPerfromanceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGPerfromanceTableViewController.h; sourceTree = "<group>"; };
 		4DB95D732213C2A000302C2C /* LGGPerfromanceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGPerfromanceTableViewController.m; sourceTree = "<group>"; };
-		4DB95D762213C2C000302C2C /* LGGImageRenderingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGImageRenderingTableViewCell.h; sourceTree = "<group>"; };
-		4DB95D772213C2C000302C2C /* LGGImageRenderingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGImageRenderingTableViewCell.m; sourceTree = "<group>"; };
-		4DB95D7A221574B300302C2C /* rendering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rendering.png; sourceTree = "<group>"; };
+		4DB95D7A221574B300302C2C /* rendering@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rendering@2x.png"; sourceTree = "<group>"; };
 		4DCCD0B9219C602100EB7245 /* LGGDIYFunctionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGDIYFunctionTableViewController.h; sourceTree = "<group>"; };
 		4DCCD0BA219C602100EB7245 /* LGGDIYFunctionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGDIYFunctionTableViewController.m; sourceTree = "<group>"; };
 		4DCCD0C4219D4D3400EB7245 /* LGGGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGGCDViewController.h; sourceTree = "<group>"; };
 		4DCCD0C5219D4D3400EB7245 /* LGGGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGGCDViewController.m; sourceTree = "<group>"; };
 		4DCCD0CA219EDA8D00EB7245 /* LGGAutoreleaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGGAutoreleaseViewController.h; sourceTree = "<group>"; };
 		4DCCD0CB219EDA8D00EB7245 /* LGGAutoreleaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGAutoreleaseViewController.m; sourceTree = "<group>"; };
+		4DDEBD7A23A9D0AC00353173 /* LGGCAlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LGGCAlayerViewController.h; path = Summary/Modules/KnowledgePage/CALayer/viewcontroller/LGGCAlayerViewController.h; sourceTree = SOURCE_ROOT; };
+		4DDEBD7B23A9D0AC00353173 /* LGGCAlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LGGCAlayerViewController.m; path = Summary/Modules/KnowledgePage/CALayer/viewcontroller/LGGCAlayerViewController.m; sourceTree = SOURCE_ROOT; };
+		4DDEBD7F23A9D26C00353173 /* jingtian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jingtian.jpg; sourceTree = "<group>"; };
 		4DFCBC0B219927E800DA1E6C /* Summary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Summary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFCBC0E219927E800DA1E6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DFCBC0F219927E800DA1E6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -165,10 +262,8 @@
 		4DFCBC17219927E900DA1E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DFCBC1C219927E900DA1E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DFCBC1D219927E900DA1E6C /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		4DFCBC23219927E900DA1E6C /* SummaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFCBC27219927E900DA1E6C /* SummeryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummeryTests.m; sourceTree = "<group>"; };
 		4DFCBC29219927E900DA1E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DFCBC2E219927E900DA1E6C /* SummaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFCBC32219927E900DA1E6C /* SummeryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummeryUITests.m; sourceTree = "<group>"; };
 		4DFCBC34219927E900DA1E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		635F71FD8D76837450DF59AE /* Pods-SummeryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummeryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SummeryUITests/Pods-SummeryUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +281,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4D5EA812224289EB00DE1CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9C77F307C21FA8A2198F95 /* libPods-SummaryTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DFCBC08219927E800DA1E6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,30 +297,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DFCBC20219927E900DA1E6C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E9B3BAA1279D891DCBF6ACF /* libPods-SummeryTests.a in Frameworks */,
-				B5FEBF456926CEE5298E51F6 /* libPods-SummaryTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DFCBC2B219927E900DA1E6C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0B548C51CFF1477DDD7CCBD /* libPods-SummeryUITests.a in Frameworks */,
-				F3BAA085564AA9195F65FFC3 /* libPods-SummaryUITests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D07580F2241B70300914CE7 /* DesignPatterns(设计模式) */ = {
+			isa = PBXGroup;
+			children = (
+				4D0758102241B70300914CE7 /* strategy(策略) */,
+			);
+			path = "DesignPatterns(设计模式)";
+			sourceTree = "<group>";
+		};
+		4D0758102241B70300914CE7 /* strategy(策略) */ = {
+			isa = PBXGroup;
+			children = (
+				4D0758142242191800914CE7 /* textFeildValidStrategy */,
+				4D0758112241B70300914CE7 /* controller */,
+				4D0758122241B70300914CE7 /* model */,
+				4D0758132241B70300914CE7 /* view */,
+			);
+			path = "strategy(策略)";
+			sourceTree = "<group>";
+		};
+		4D0758112241B70300914CE7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D5EA7FE2242329C00DE1CEB /* LGGStrategyViewController.h */,
+				4D5EA7FF2242329C00DE1CEB /* LGGStrategyViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4D0758122241B70300914CE7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4D0758132241B70300914CE7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4D0758142242191800914CE7 /* textFeildValidStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				4D0758152242193E00914CE7 /* LGGValidTextField.h */,
+				4D0758162242193E00914CE7 /* LGGValidTextField.m */,
+				4D075818224219A300914CE7 /* LGGInputValidator.h */,
+				4D075819224219A300914CE7 /* LGGInputValidator.m */,
+				4D07581B22421C3B00914CE7 /* LGGNumberInputValidator.h */,
+				4D07581C22421C3B00914CE7 /* LGGNumberInputValidator.m */,
+				4D5EA7FB22422EDD00DE1CEB /* LGGAlphabetInputValidator.h */,
+				4D5EA7FC22422EDD00DE1CEB /* LGGAlphabetInputValidator.m */,
+			);
+			path = textFeildValidStrategy;
+			sourceTree = "<group>";
+		};
+		4D3045AC225C2E61009BD233 /* CGrammar */ = {
+			isa = PBXGroup;
+			children = (
+				4D3045AD225C2E9A009BD233 /* externstaticconst */,
+			);
+			path = CGrammar;
+			sourceTree = "<group>";
+		};
+		4D3045AD225C2E9A009BD233 /* externstaticconst */ = {
+			isa = PBXGroup;
+			children = (
+				4D3045AE225C2E9A009BD233 /* LGGExternStaticConst.m */,
+				4D3045AF225C2E9A009BD233 /* LGGCGrammerViewController.h */,
+				4D3045B0225C2E9A009BD233 /* LGGExternStaticConst.h */,
+				4D3045B1225C2E9A009BD233 /* LGGCGrammerViewController.m */,
+			);
+			path = externstaticconst;
+			sourceTree = "<group>";
+		};
+		4D392EFA2264B82D00FEEE7D /* CustomKeyBoard自定义键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				4D392EFB2264B82D00FEEE7D /* controller */,
+				4D392EFC2264B82D00FEEE7D /* model */,
+				4D392EFD2264B82D00FEEE7D /* view */,
+			);
+			path = "CustomKeyBoard自定义键盘";
+			sourceTree = "<group>";
+		};
+		4D392EFB2264B82D00FEEE7D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D392EFE2264B84C00FEEE7D /* LGGCustemKeyBoardViewController.h */,
+				4D392EFF2264B84C00FEEE7D /* LGGCustemKeyBoardViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4D392EFC2264B82D00FEEE7D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4D392EFD2264B82D00FEEE7D /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		4D4016B321E229F100FBE917 /* NSOperation */ = {
 			isa = PBXGroup;
 			children = (
+				4DABCD8223960C9300948AF6 /* LGGOperationQueueViewController.h */,
+				4DABCD8323960C9300948AF6 /* LGGOperationQueueViewController.m */,
 			);
 			path = NSOperation;
 			sourceTree = "<group>";
@@ -229,6 +425,16 @@
 				4D4016B621E22A5100FBE917 /* LGGNSThreadViewController.m */,
 			);
 			path = NSThread;
+			sourceTree = "<group>";
+		};
+		4D4194B22251261B00D0C4FE /* BitMap */ = {
+			isa = PBXGroup;
+			children = (
+				4D4194B9225127EB00D0C4FE /* LGGBitMapViewController.h */,
+				4D4194BA225127EB00D0C4FE /* LGGBitMapViewController.m */,
+				4D4194BB225127EB00D0C4FE /* LGGBitMapViewController.xib */,
+			);
+			path = BitMap;
 			sourceTree = "<group>";
 		};
 		4D4381B021A2624A00D5BC85 /* DesignMode */ = {
@@ -248,15 +454,6 @@
 			path = Singleton;
 			sourceTree = "<group>";
 		};
-		4D4381B521A39BCF00D5BC85 /* externstaticconst */ = {
-			isa = PBXGroup;
-			children = (
-				4D4381B621A39BE600D5BC85 /* LGGExternStaticConst.h */,
-				4D4381B721A39BE600D5BC85 /* LGGExternStaticConst.m */,
-			);
-			path = externstaticconst;
-			sourceTree = "<group>";
-		};
 		4D4381C221A4D74B00D5BC85 /* LGGBase */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +461,24 @@
 				4D4381C421A4D76700D5BC85 /* LGGBaseViewController.m */,
 			);
 			path = LGGBase;
+			sourceTree = "<group>";
+		};
+		4D446527225065CE009566A5 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				4D446528225065CE009566A5 /* UIview的transform */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		4D446528225065CE009566A5 /* UIview的transform */ = {
+			isa = PBXGroup;
+			children = (
+				4D64A9E622510DC1000423BE /* LGGUIViewTransFormViewController.h */,
+				4D64A9E722510DC1000423BE /* LGGUIViewTransFormViewController.m */,
+				4D4194B022511AC500D0C4FE /* LGGUIViewTransFormViewController.xib */,
+			);
+			path = "UIview的transform";
 			sourceTree = "<group>";
 		};
 		4D4D405021DC8C9A008A2A2A /* MVX */ = {
@@ -515,9 +730,140 @@
 			path = "DES|3DES|AES对称加密";
 			sourceTree = "<group>";
 		};
+		4D5EA8032242819500DE1CEB /* UnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				4D5EA8042242819500DE1CEB /* controller */,
+				4D5EA8052242819500DE1CEB /* model */,
+				4D5EA8062242819500DE1CEB /* view */,
+			);
+			path = UnitTest;
+			sourceTree = "<group>";
+		};
+		4D5EA8042242819500DE1CEB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D5EA807224281AE00DE1CEB /* LGGUnitTestViewController.h */,
+				4D5EA808224281AE00DE1CEB /* LGGUnitTestViewController.m */,
+				4D5EA80B2242843000DE1CEB /* LGGCalculate.h */,
+				4D5EA80C2242843000DE1CEB /* LGGCalculate.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4D5EA8052242819500DE1CEB /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4D5EA8062242819500DE1CEB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4D5EA816224289EB00DE1CEB /* SummaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5EA817224289EB00DE1CEB /* SummaryTests.m */,
+				4D5EA819224289EB00DE1CEB /* Info.plist */,
+			);
+			path = SummaryTests;
+			sourceTree = "<group>";
+		};
+		4D66EF2423AB2FE000EC1945 /* clock */ = {
+			isa = PBXGroup;
+			children = (
+				4D66EF2523AB2FE700EC1945 /* viewcontroller */,
+			);
+			path = clock;
+			sourceTree = "<group>";
+		};
+		4D66EF2523AB2FE700EC1945 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				4D66EF2723AB309B00EC1945 /* LGGClockViewController.h */,
+				4D66EF2823AB309B00EC1945 /* LGGClockViewController.m */,
+				4D66EF2A23AB30EE00EC1945 /* LGGClockViewController.xib */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		4D66EF2C23B4929D00EC1945 /* mirror */ = {
+			isa = PBXGroup;
+			children = (
+				4D66EF2E23B492B300EC1945 /* view */,
+				4D66EF2D23B492AC00EC1945 /* viewcontroller */,
+			);
+			path = mirror;
+			sourceTree = "<group>";
+		};
+		4D66EF2D23B492AC00EC1945 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				4D66EF2F23B492CB00EC1945 /* LGGMirrorViewController.h */,
+				4D66EF3023B492CB00EC1945 /* LGGMirrorViewController.m */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		4D66EF2E23B492B300EC1945 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4D66EF3223B4E82800EC1945 /* 3Dtransform */ = {
+			isa = PBXGroup;
+			children = (
+				4D66EF3323B4E83900EC1945 /* viewcontroller */,
+			);
+			path = 3Dtransform;
+			sourceTree = "<group>";
+		};
+		4D66EF3323B4E83900EC1945 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				4D66EF3423B4E86900EC1945 /* LGGTransform3DViewController.h */,
+				4D66EF3523B4E86900EC1945 /* LGGTransform3DViewController.m */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		4D66EF3723BAE80A00EC1945 /* 替换方法实现 */ = {
+			isa = PBXGroup;
+			children = (
+				4D66EF3823BAE95600EC1945 /* LGGExchageFunctionViewController.h */,
+				4D66EF3923BAE95600EC1945 /* LGGExchageFunctionViewController.m */,
+				4D66EF3B23BAE9B500EC1945 /* LGGExchageFunctionViewController.xib */,
+			);
+			path = "替换方法实现";
+			sourceTree = "<group>";
+		};
+		4D66EF3D23BB1AB800EC1945 /* dic转model */ = {
+			isa = PBXGroup;
+			children = (
+				4D66EF3F23BB5EEF00EC1945 /* LGGDicTransferModelViewController.h */,
+				4D66EF4023BB5EEF00EC1945 /* LGGDicTransferModelViewController.m */,
+				4D66EF4123BB5EF000EC1945 /* LGGDicTransferModelViewController.xib */,
+				4D66EF4423BB64A000EC1945 /* DicTransModel.json */,
+				4D66EF4523BB66A800EC1945 /* LGGRumtimeModel.h */,
+				4D66EF4623BB66A800EC1945 /* LGGRumtimeModel.m */,
+			);
+			path = "dic转model";
+			sourceTree = "<group>";
+		};
 		4D86673E21F084BF0026829A /* runtime */ = {
 			isa = PBXGroup;
 			children = (
+				4D66EF3D23BB1AB800EC1945 /* dic转model */,
+				4D66EF3723BAE80A00EC1945 /* 替换方法实现 */,
+				4DB739DF223E06AA0028FA60 /* 手动添加方法 */,
+				4DB739DC223E06AA0028FA60 /* statistics(无侵入埋点) */,
 				4D86674221F08B820026829A /* 类别添加属性 */,
 			);
 			path = runtime;
@@ -534,6 +880,50 @@
 			path = "类别添加属性";
 			sourceTree = "<group>";
 		};
+		4D9DA06E2249BC2E00820B76 /* SwiftPrictise */ = {
+			isa = PBXGroup;
+			children = (
+				4D9DA06F2249BC7500820B76 /* MyPrictisePlayground.playground */,
+				4D9DA0702249BD0E00820B76 /* MyDataStructurePlayground.playground */,
+			);
+			path = SwiftPrictise;
+			sourceTree = "<group>";
+		};
+		4D9DA071224A6D3300820B76 /* Copy深拷贝浅拷贝 */ = {
+			isa = PBXGroup;
+			children = (
+				4D9DA072224A6D3300820B76 /* Model */,
+				4D9DA073224A6D3300820B76 /* view */,
+				4D9DA074224A6D3300820B76 /* viewController */,
+			);
+			path = "Copy深拷贝浅拷贝";
+			sourceTree = "<group>";
+		};
+		4D9DA072224A6D3300820B76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D00ADED239D1C4A00247FB9 /* LGGCopyProperty.h */,
+				4D00ADEE239D1C4A00247FB9 /* LGGCopyProperty.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D9DA073224A6D3300820B76 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4D9DA074224A6D3300820B76 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D9DA075224A6D5400820B76 /* LGGCopyViewController.h */,
+				4D9DA076224A6D5400820B76 /* LGGCopyViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
 		4D9E524321C3BDB20072422C /* Runloop */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,6 +935,77 @@
 				4D9E524B21C921730072422C /* LGGPermanentCFThread.m */,
 			);
 			path = Runloop;
+			sourceTree = "<group>";
+		};
+		4DB739B72222D47F0028FA60 /* arithmetic算法 */ = {
+			isa = PBXGroup;
+			children = (
+				4D4194B22251261B00D0C4FE /* BitMap */,
+				4DB739B82222D47F0028FA60 /* frame */,
+				4DB739BC2222D47F0028FA60 /* TwoSum */,
+			);
+			path = "arithmetic算法";
+			sourceTree = "<group>";
+		};
+		4DB739B82222D47F0028FA60 /* frame */ = {
+			isa = PBXGroup;
+			children = (
+				4DB739B92222D47F0028FA60 /* controller */,
+				4DB739BA2222D47F0028FA60 /* model */,
+				4DB739BB2222D47F0028FA60 /* view */,
+			);
+			path = frame;
+			sourceTree = "<group>";
+		};
+		4DB739B92222D47F0028FA60 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DB739BF2222D4A50028FA60 /* LGGArithmeticViewController.h */,
+				4DB739C02222D4A50028FA60 /* LGGArithmeticViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4DB739BA2222D47F0028FA60 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4DB739BB2222D47F0028FA60 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4DB739BC2222D47F0028FA60 /* TwoSum */ = {
+			isa = PBXGroup;
+			children = (
+				4DB739BD2222D47F0028FA60 /* TwoSum.html */,
+			);
+			path = TwoSum;
+			sourceTree = "<group>";
+		};
+		4DB739DC223E06AA0028FA60 /* statistics(无侵入埋点) */ = {
+			isa = PBXGroup;
+			children = (
+				4DB739DD223E06AA0028FA60 /* UIViewController+statisticsHook.h */,
+				4DB739DE223E06AA0028FA60 /* UIViewController+statisticsHook.m */,
+			);
+			path = "statistics(无侵入埋点)";
+			sourceTree = "<group>";
+		};
+		4DB739DF223E06AA0028FA60 /* 手动添加方法 */ = {
+			isa = PBXGroup;
+			children = (
+				4DB739E2223E07E70028FA60 /* LGGAddMethodManual.h */,
+				4DB739E3223E07E70028FA60 /* LGGAddMethodManual.m */,
+				4D07580C223E569000914CE7 /* LGGAddMethodManualViewController.h */,
+				4D07580D223E569000914CE7 /* LGGAddMethodManualViewController.m */,
+			);
+			path = "手动添加方法";
 			sourceTree = "<group>";
 		};
 		4DB95D6C2213C1F600302C2C /* performance */ = {
@@ -577,8 +1038,11 @@
 		4DB95D742213C2A000302C2C /* view */ = {
 			isa = PBXGroup;
 			children = (
-				4DB95D762213C2C000302C2C /* LGGImageRenderingTableViewCell.h */,
-				4DB95D772213C2C000302C2C /* LGGImageRenderingTableViewCell.m */,
+				4DB739C4222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.h */,
+				4DB739C5222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.m */,
+				4DB739C6222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.xib */,
+				4DB739CD222AB81F0028FA60 /* LGGRoundImageRenderTableViewCell+load.h */,
+				4DB739CE222AB81F0028FA60 /* LGGRoundImageRenderTableViewCell+load.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -586,7 +1050,9 @@
 		4DB95D79221573CD00302C2C /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				4DB95D7A221574B300302C2C /* rendering.png */,
+				4DB739CB222A3CBA0028FA60 /* bb@2x.png */,
+				4DB739C9222A39BE0028FA60 /* aa.png */,
+				4DB95D7A221574B300302C2C /* rendering@2x.png */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -594,6 +1060,8 @@
 		4DCCD0B2219C602100EB7245 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4D3045AC225C2E61009BD233 /* CGrammar */,
+				4D9DA06E2249BC2E00820B76 /* SwiftPrictise */,
 				4DCCD0B3219C602100EB7245 /* KnowledgePage */,
 				4DCCD0B7219C602100EB7245 /* DIYFunction */,
 			);
@@ -603,6 +1071,13 @@
 		4DCCD0B3219C602100EB7245 /* KnowledgePage */ = {
 			isa = PBXGroup;
 			children = (
+				4DDEBD7923A9D08600353173 /* CALayer */,
+				4D392EFA2264B82D00FEEE7D /* CustomKeyBoard自定义键盘 */,
+				4D446527225065CE009566A5 /* animation */,
+				4D9DA071224A6D3300820B76 /* Copy深拷贝浅拷贝 */,
+				4D5EA8032242819500DE1CEB /* UnitTest */,
+				4D07580F2241B70300914CE7 /* DesignPatterns(设计模式) */,
+				4DB739B72222D47F0028FA60 /* arithmetic算法 */,
 				4DB95D6C2213C1F600302C2C /* performance */,
 				4D86673E21F084BF0026829A /* runtime */,
 				4D51693521EB780E0047446F /* 加密 */,
@@ -610,7 +1085,6 @@
 				4D51691321E6F33C0047446F /* BasicKnowledge */,
 				4D4D405021DC8C9A008A2A2A /* MVX */,
 				4D9E524321C3BDB20072422C /* Runloop */,
-				4D4381B521A39BCF00D5BC85 /* externstaticconst */,
 				4D4381B021A2624A00D5BC85 /* DesignMode */,
 				4DCCD0BF219D4B8100EB7245 /* Block */,
 				4DCCD0BE219D4B8100EB7245 /* Lock */,
@@ -690,12 +1164,42 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
+		4DDEBD7923A9D08600353173 /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				4D66EF3223B4E82800EC1945 /* 3Dtransform */,
+				4D66EF2C23B4929D00EC1945 /* mirror */,
+				4D66EF2423AB2FE000EC1945 /* clock */,
+				4DDEBD7E23A9D10D00353173 /* image */,
+				4DDEBD7D23A9D0B100353173 /* viewcontroller */,
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		4DDEBD7D23A9D0B100353173 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				4DDEBD7A23A9D0AC00353173 /* LGGCAlayerViewController.h */,
+				4DDEBD7B23A9D0AC00353173 /* LGGCAlayerViewController.m */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		4DDEBD7E23A9D10D00353173 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4DDEBD7F23A9D26C00353173 /* jingtian.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		4DFCBC02219927E800DA1E6C = {
 			isa = PBXGroup;
 			children = (
 				4DFCBC0D219927E800DA1E6C /* Summary */,
 				4DFCBC26219927E900DA1E6C /* SummeryTests */,
 				4DFCBC31219927E900DA1E6C /* SummeryUITests */,
+				4D5EA816224289EB00DE1CEB /* SummaryTests */,
 				4DFCBC0C219927E800DA1E6C /* Products */,
 				914939977BDED725E8C50BEE /* Pods */,
 				E7297B483A2597B485030C3A /* Frameworks */,
@@ -706,8 +1210,7 @@
 			isa = PBXGroup;
 			children = (
 				4DFCBC0B219927E800DA1E6C /* Summary.app */,
-				4DFCBC23219927E900DA1E6C /* SummaryTests.xctest */,
-				4DFCBC2E219927E900DA1E6C /* SummaryUITests.xctest */,
+				4D5EA815224289EB00DE1CEB /* SummaryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -734,6 +1237,7 @@
 			children = (
 				4DFCBC27219927E900DA1E6C /* SummeryTests.m */,
 				4DFCBC29219927E900DA1E6C /* Info.plist */,
+				4D9DA03E22428BEC00820B76 /* LGGCalculateTests.m */,
 			);
 			path = SummeryTests;
 			sourceTree = "<group>";
@@ -782,6 +1286,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4D5EA814224289EB00DE1CEB /* SummaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5EA81C224289EB00DE1CEB /* Build configuration list for PBXNativeTarget "SummaryTests" */;
+			buildPhases = (
+				A70D9273DDB301650FBEF1F1 /* [CP] Check Pods Manifest.lock */,
+				4D5EA811224289EB00DE1CEB /* Sources */,
+				4D5EA812224289EB00DE1CEB /* Frameworks */,
+				4D5EA813224289EB00DE1CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5EA81B224289EB00DE1CEB /* PBXTargetDependency */,
+			);
+			name = SummaryTests;
+			productName = SummaryTests;
+			productReference = 4D5EA815224289EB00DE1CEB /* SummaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4DFCBC0A219927E800DA1E6C /* Summary */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DFCBC37219927E900DA1E6C /* Build configuration list for PBXNativeTarget "Summary" */;
@@ -800,44 +1323,6 @@
 			productReference = 4DFCBC0B219927E800DA1E6C /* Summary.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4DFCBC22219927E900DA1E6C /* SummaryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DFCBC3A219927E900DA1E6C /* Build configuration list for PBXNativeTarget "SummaryTests" */;
-			buildPhases = (
-				96C5DCE0FC679BF0D4A99B67 /* [CP] Check Pods Manifest.lock */,
-				4DFCBC1F219927E900DA1E6C /* Sources */,
-				4DFCBC20219927E900DA1E6C /* Frameworks */,
-				4DFCBC21219927E900DA1E6C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4DFCBC25219927E900DA1E6C /* PBXTargetDependency */,
-			);
-			name = SummaryTests;
-			productName = SummeryTests;
-			productReference = 4DFCBC23219927E900DA1E6C /* SummaryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4DFCBC2D219927E900DA1E6C /* SummaryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DFCBC3D219927E900DA1E6C /* Build configuration list for PBXNativeTarget "SummaryUITests" */;
-			buildPhases = (
-				65A2AC7577638C18ADCC16FB /* [CP] Check Pods Manifest.lock */,
-				4DFCBC2A219927E900DA1E6C /* Sources */,
-				4DFCBC2B219927E900DA1E6C /* Frameworks */,
-				4DFCBC2C219927E900DA1E6C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4DFCBC30219927E900DA1E6C /* PBXTargetDependency */,
-			);
-			name = SummaryUITests;
-			productName = SummeryUITests;
-			productReference = 4DFCBC2E219927E900DA1E6C /* SummaryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -848,16 +1333,12 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Gang;
 				TargetAttributes = {
+					4D5EA814224289EB00DE1CEB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4DFCBC0A219927E800DA1E6C;
+					};
 					4DFCBC0A219927E800DA1E6C = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					4DFCBC22219927E900DA1E6C = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 4DFCBC0A219927E800DA1E6C;
-					};
-					4DFCBC2D219927E900DA1E6C = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 4DFCBC0A219927E800DA1E6C;
 					};
 				};
 			};
@@ -875,59 +1356,43 @@
 			projectRoot = "";
 			targets = (
 				4DFCBC0A219927E800DA1E6C /* Summary */,
-				4DFCBC22219927E900DA1E6C /* SummaryTests */,
-				4DFCBC2D219927E900DA1E6C /* SummaryUITests */,
+				4D5EA814224289EB00DE1CEB /* SummaryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4D5EA813224289EB00DE1CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DFCBC09219927E800DA1E6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB95D7B221574B300302C2C /* rendering.png in Resources */,
+				4D66EF3C23BAE9B500EC1945 /* LGGExchageFunctionViewController.xib in Resources */,
+				4D66EF4323BB5EF000EC1945 /* LGGDicTransferModelViewController.xib in Resources */,
+				4DB95D7B221574B300302C2C /* rendering@2x.png in Resources */,
+				4DB739BE2222D47F0028FA60 /* TwoSum.html in Resources */,
+				4DDEBD8023A9D26C00353173 /* jingtian.jpg in Resources */,
+				4DB739CA222A39BE0028FA60 /* aa.png in Resources */,
 				4D51692321E6F33C0047446F /* KnowledgeList.plist in Resources */,
 				4DFCBC18219927E900DA1E6C /* Assets.xcassets in Resources */,
+				4DB739CC222A3CBA0028FA60 /* bb@2x.png in Resources */,
+				4D4194BD225127EB00D0C4FE /* LGGBitMapViewController.xib in Resources */,
+				4D66EF2B23AB30EE00EC1945 /* LGGClockViewController.xib in Resources */,
+				4D4194B122511AC500D0C4FE /* LGGUIViewTransFormViewController.xib in Resources */,
 				4D51693421E9C8BA0047446F /* jsonPrase.geojson in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DFCBC21219927E900DA1E6C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DFCBC2C219927E900DA1E6C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4DB739C8222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		65A2AC7577638C18ADCC16FB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SummaryUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		66914B43F63FB69548FEE8D2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -946,16 +1411,20 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		96C5DCE0FC679BF0D4A99B67 /* [CP] Check Pods Manifest.lock */ = {
+		A70D9273DDB301650FBEF1F1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SummaryTests-checkManifestLockResult.txt",
 			);
@@ -967,13 +1436,27 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4D5EA811224289EB00DE1CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9DA04022428C1900820B76 /* LGGCalculate.h in Sources */,
+				4D9DA04122428C1900820B76 /* LGGCalculate.m in Sources */,
+				4D5EA818224289EB00DE1CEB /* SummaryTests.m in Sources */,
+				4D9DA03F22428BEC00820B76 /* LGGCalculateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DFCBC07219927E800DA1E6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D4381B421A2627B00D5BC85 /* LGGSingletonManager.m in Sources */,
+				4DABCD8423960C9300948AF6 /* LGGOperationQueueViewController.m in Sources */,
 				4D9E524C21C921730072422C /* LGGPermanentCFThread.m in Sources */,
+				4DDEBD7C23A9D0AC00353173 /* LGGCAlayerViewController.m in Sources */,
 				4D51693C21EB78530047446F /* LGGBase64ViewController.m in Sources */,
+				4D66EF2923AB309B00EC1945 /* LGGClockViewController.m in Sources */,
 				4D4D407921DC9C2C008A2A2A /* LGGMVPModel.m in Sources */,
 				4D51693221E950DD0047446F /* LGGURLSessionViewController.m in Sources */,
 				4D4D408621DCB12A008A2A2A /* LGGMVVMViewModel.m in Sources */,
@@ -983,67 +1466,111 @@
 				4DCCD0C6219D4D3400EB7245 /* LGGGCDViewController.m in Sources */,
 				4D51692021E6F33C0047446F /* LGGKnowledgeClassifyModel.m in Sources */,
 				4DCCD0CC219EDA8D00EB7245 /* LGGAutoreleaseViewController.m in Sources */,
-				4DB95D782213C2C000302C2C /* LGGImageRenderingTableViewCell.m in Sources */,
 				4D4D408321DCAB38008A2A2A /* LGGBasePresenter.m in Sources */,
+				4D0758172242193E00914CE7 /* LGGValidTextField.m in Sources */,
+				4D392F002264B84C00FEEE7D /* LGGCustemKeyBoardViewController.m in Sources */,
 				4D86673A21ED940A0026829A /* LGGAFNetworkUseViewController.m in Sources */,
 				4D51692C21E74E870047446F /* LGGURLConnectionViewController.m in Sources */,
 				4D4D407321DC9065008A2A2A /* LGGMVVMViewController.m in Sources */,
+				4DB739C7222A2DFA0028FA60 /* LGGRoundImageRenderTableViewCell.m in Sources */,
+				4D5EA8012242329C00DE1CEB /* LGGStrategyViewController.m in Sources */,
 				4D4D407F21DCA345008A2A2A /* LGGMVPVViewProtocol.m in Sources */,
 				4DFCBC13219927E800DA1E6C /* ViewController.m in Sources */,
 				4D51692121E6F33C0047446F /* LGGKnowledgeModelManager.m in Sources */,
+				4D66EF4723BB66A800EC1945 /* LGGRumtimeModel.m in Sources */,
 				4D51694621EB81AD0047446F /* NSString+Hash.m in Sources */,
+				4D64A9E822510DC2000423BE /* LGGUIViewTransFormViewController.m in Sources */,
+				4DB739C12222D4A50028FA60 /* LGGArithmeticViewController.m in Sources */,
 				4DFCBC1E219927E900DA1E6C /* main.mm in Sources */,
+				4D4194BC225127EB00D0C4FE /* LGGBitMapViewController.m in Sources */,
+				4D5EA80D2242843000DE1CEB /* LGGCalculate.m in Sources */,
+				4D5EA809224281AE00DE1CEB /* LGGUnitTestViewController.m in Sources */,
 				4D9E524621C521EC0072422C /* LGGRunloopViewController.m in Sources */,
+				4D07581D22421C3B00914CE7 /* LGGNumberInputValidator.m in Sources */,
 				4D4D407021DC9051008A2A2A /* LGGMVPViewController.m in Sources */,
 				4D4D407C21DC9C46008A2A2A /* LGGMVPPresenter.m in Sources */,
+				4D3045B3225C2E9A009BD233 /* LGGCGrammerViewController.m in Sources */,
 				4DFCBC10219927E800DA1E6C /* AppDelegate.m in Sources */,
+				4D07581A224219A300914CE7 /* LGGInputValidator.m in Sources */,
 				4D07C41C21B21C13004802F9 /* LGGBlockViewController.m in Sources */,
+				4D9DA077224A6D5400820B76 /* LGGCopyViewController.m in Sources */,
 				4D51694321EB7FFA0047446F /* LGGMD5|SHAViewController.m in Sources */,
+				4D5EA7FD22422EDD00DE1CEB /* LGGAlphabetInputValidator.m in Sources */,
+				4D07580E223E569000914CE7 /* LGGAddMethodManualViewController.m in Sources */,
 				4DB95D752213C2A000302C2C /* LGGPerfromanceTableViewController.m in Sources */,
 				4D9E524921C788370072422C /* LGGPermanentThread.m in Sources */,
+				4D66EF4223BB5EF000EC1945 /* LGGDicTransferModelViewController.m in Sources */,
 				4D86673D21EE287B0026829A /* LGGAFNetWorkTextHtmlViewController.m in Sources */,
-				4D4381B821A39BE600D5BC85 /* LGGExternStaticConst.m in Sources */,
+				4D66EF3123B492CB00EC1945 /* LGGMirrorViewController.m in Sources */,
 				4D4D408921DCB13C008A2A2A /* LGGMVVMModel.m in Sources */,
+				4D66EF3623B4E86900EC1945 /* LGGTransform3DViewController.m in Sources */,
+				4D00ADEF239D1C4A00247FB9 /* LGGCopyProperty.m in Sources */,
 				4D4016B721E22A5100FBE917 /* LGGNSThreadViewController.m in Sources */,
 				4D4D407621DC9C01008A2A2A /* LGGMVCViewController.m in Sources */,
 				4D86674821F0AC520026829A /* UIView+defaultBackground.m in Sources */,
+				4D66EF3A23BAE95600EC1945 /* LGGExchageFunctionViewController.m in Sources */,
+				4D3045B2225C2E9A009BD233 /* LGGExternStaticConst.m in Sources */,
+				4DB739E0223E06AA0028FA60 /* UIViewController+statisticsHook.m in Sources */,
+				4DB739CF222AB81F0028FA60 /* LGGRoundImageRenderTableViewCell+load.m in Sources */,
+				4DB739E4223E07E70028FA60 /* LGGAddMethodManual.m in Sources */,
 				4DCCD0BC219C602100EB7245 /* LGGDIYFunctionTableViewController.m in Sources */,
 				4D51691F21E6F33C0047446F /* LGGKnowledgeTableViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DFCBC1F219927E900DA1E6C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DFCBC28219927E900DA1E6C /* SummeryTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DFCBC2A219927E900DA1E6C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DFCBC33219927E900DA1E6C /* SummeryUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4DFCBC25219927E900DA1E6C /* PBXTargetDependency */ = {
+		4D5EA81B224289EB00DE1CEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4DFCBC0A219927E800DA1E6C /* Summary */;
-			targetProxy = 4DFCBC24219927E900DA1E6C /* PBXContainerItemProxy */;
-		};
-		4DFCBC30219927E900DA1E6C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4DFCBC0A219927E800DA1E6C /* Summary */;
-			targetProxy = 4DFCBC2F219927E900DA1E6C /* PBXContainerItemProxy */;
+			targetProxy = 4D5EA81A224289EB00DE1CEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4D5EA81D224289EB00DE1CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D51DECE1BB2CE2EE1D6202 /* Pods-SummaryTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C672BHWSK;
+				INFOPLIST_FILE = SummaryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gang.www.SummaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Summary.app/Summary";
+			};
+			name = Debug;
+		};
+		4D5EA81E224289EB00DE1CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B0352862F3111B4AD48CD01 /* Pods-SummaryTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C672BHWSK;
+				INFOPLIST_FILE = SummaryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gang.www.SummaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Summary.app/Summary";
+			};
+			name = Release;
+		};
 		4DFCBC35219927E900DA1E6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1095,7 +1622,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1148,7 +1675,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1165,7 +1692,7 @@
 				DEVELOPMENT_TEAM = 5C672BHWSK;
 				GCC_PREFIX_HEADER = Summary/SummaryPrefixHeader.pch;
 				INFOPLIST_FILE = Summary/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1189,7 +1716,7 @@
 				DEVELOPMENT_TEAM = 5C672BHWSK;
 				GCC_PREFIX_HEADER = Summary/SummaryPrefixHeader.pch;
 				INFOPLIST_FILE = Summary/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1204,87 +1731,18 @@
 			};
 			name = Release;
 		};
-		4DFCBC3B219927E900DA1E6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46D51DECE1BB2CE2EE1D6202 /* Pods-SummaryTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C672BHWSK;
-				INFOPLIST_FILE = SummeryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GangSummery.www.SummeryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Summary.app/Summary";
-			};
-			name = Debug;
-		};
-		4DFCBC3C219927E900DA1E6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B0352862F3111B4AD48CD01 /* Pods-SummaryTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C672BHWSK;
-				INFOPLIST_FILE = SummeryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GangSummery.www.SummeryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Summary.app/Summary";
-			};
-			name = Release;
-		};
-		4DFCBC3E219927E900DA1E6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B7FFE119C6C899C9948FF7B /* Pods-SummaryUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C672BHWSK;
-				INFOPLIST_FILE = SummeryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GangSummery.www.SummeryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Summery;
-			};
-			name = Debug;
-		};
-		4DFCBC3F219927E900DA1E6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8C3951F6F11F09EF806B23A /* Pods-SummaryUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C672BHWSK;
-				INFOPLIST_FILE = SummeryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GangSummery.www.SummeryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Summery;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4D5EA81C224289EB00DE1CEB /* Build configuration list for PBXNativeTarget "SummaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5EA81D224289EB00DE1CEB /* Debug */,
+				4D5EA81E224289EB00DE1CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		4DFCBC06219927E800DA1E6C /* Build configuration list for PBXProject "Summary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1299,24 +1757,6 @@
 			buildConfigurations = (
 				4DFCBC38219927E900DA1E6C /* Debug */,
 				4DFCBC39219927E900DA1E6C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		4DFCBC3A219927E900DA1E6C /* Build configuration list for PBXNativeTarget "SummaryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DFCBC3B219927E900DA1E6C /* Debug */,
-				4DFCBC3C219927E900DA1E6C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		4DFCBC3D219927E900DA1E6C /* Build configuration list for PBXNativeTarget "SummaryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DFCBC3E219927E900DA1E6C /* Debug */,
-				4DFCBC3F219927E900DA1E6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

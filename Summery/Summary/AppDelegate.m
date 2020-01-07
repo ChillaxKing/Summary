@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <CYLTabBarController/CYLTabBarController.h>
-#import <CYLTabBarController/CYLTabBar.h>
+//#import <CYLTabBarController/CYLTabBar.h>
 #import "LGGKnowledgeTableViewController.h"
 #import "LGGDIYFunctionTableViewController.h"
 
@@ -21,22 +21,35 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSString *string1 = @"aaa";
+    NSString *string2 = [string1 copy];
+    NSString *string3 = [NSString stringWithFormat:@"dfd%@",launchOptions];
+    NSLog(@"string1 %p,string2 %p,string3 %p",string1,string2,string3);
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+    [[UIApplication sharedApplication]keyWindow];
     return YES;
 }
 
 -(CYLTabBarController *)tabBarController{
-    LGGKnowledgeTableViewController *knowledge = [LGGKnowledgeTableViewController new];
-    LGGDIYFunctionTableViewController *diyFunction = [LGGDIYFunctionTableViewController new];
-    NSDictionary *knowDic = @{CYLTabBarItemTitle:@"知识点",CYLTabBarItemImage:@"tabKnowledge_nor",CYLTabBarItemSelectedImage:@"tabKnowledge_sel"};
-    NSDictionary *diyDic = @{CYLTabBarItemTitle:@"定制组件",CYLTabBarItemImage:@"tabDiy_nor",CYLTabBarItemSelectedImage:@"tabDiy_sel"};
-    UINavigationController *knowNav =[[UINavigationController alloc]initWithRootViewController:knowledge];
-    UINavigationController *diyNav = [[UINavigationController alloc]initWithRootViewController:diyFunction];
     if (_tabBarController == nil) {
-        _tabBarController = [[CYLTabBarController alloc]initWithViewControllers:@[knowNav,diyNav]  tabBarItemsAttributes:@[knowDic,diyDic]];
+
+        LGGKnowledgeTableViewController *knowledge = [LGGKnowledgeTableViewController new];
+        LGGDIYFunctionTableViewController *diyFunction = [LGGDIYFunctionTableViewController new];
+        NSDictionary *knowDic = @{CYLTabBarItemTitle:@"知识点",CYLTabBarItemImage:@"tabKnowledge_nor",CYLTabBarItemSelectedImage:@"tabKnowledge_sel"};
+        NSDictionary *diyDic = @{CYLTabBarItemTitle:@"定制组件",CYLTabBarItemImage:@"tabDiy_nor",CYLTabBarItemSelectedImage:@"tabDiy_sel"};
+        
+    //    NSDictionary *cBaseDic =@{
+    //                              CYLTabBarItemTitle:@"c语法",
+    //                              CYLTabBarItemImage:@"tabDiy_nor",
+    //                              CYLTabBarItemSelectedImage:@"tabDiy_sel"
+    //                              };
+//        UIBezierPath
+        UINavigationController *knowNav =[[UINavigationController alloc]initWithRootViewController:knowledge];
+        UINavigationController *diyNav = [[UINavigationController alloc]initWithRootViewController:diyFunction];
+            _tabBarController = [[CYLTabBarController alloc]initWithViewControllers:@[knowNav,diyNav]  tabBarItemsAttributes:@[knowDic,diyDic]];
     }
     return _tabBarController;
 }
