@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LGGCopyViewController : UIViewController
 
+-(void)testUnrecognizeMothod;
+
 @end
 
 NS_ASSUME_NONNULL_END
