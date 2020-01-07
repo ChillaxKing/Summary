@@ -11,13 +11,11 @@ target 'Summary' do
   pod 'AFNetworking', '~> 3.2.1'
   pod 'SDWebImage', '~> 4.4.1'
   pod 'Masonry'
-
+  pod 'MJExtension', '~> 3.0.15.1' #数据转模型
+  pod 'Aspects', '~> 1.4.1'  #AOP编程
+  # toast
+  pod 'Toast'
   target 'SummaryTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'SummaryUITests' do
     inherit! :search_paths
     # Pods for testing
   end

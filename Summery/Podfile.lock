@@ -14,37 +14,50 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
   - CYLTabBarController (1.17.11)
   - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
   - SDWebImage (4.4.1):
     - SDWebImage/Core (= 4.4.1)
   - SDWebImage/Core (4.4.1)
+  - Toast (4.0.0)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
+  - Aspects (~> 1.4.1)
   - CYLTabBarController
   - Masonry
+  - MJExtension (~> 3.0.15.1)
   - SDWebImage (~> 4.4.1)
+  - Toast
   - YYKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - CYLTabBarController
     - Masonry
+    - MJExtension
     - SDWebImage
     - YYKit
+  trunk:
+    - Aspects
+    - Toast
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   CYLTabBarController: b6e0574c2f5592edfbfc71a1b2be8dc0374cf11a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 0c05530cd106687530d1c7eabf082583aa6e5446
+PODFILE CHECKSUM: 0ba7c1c17cd5917c6a6eaa38c977f82a3000ba35
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.8.4
