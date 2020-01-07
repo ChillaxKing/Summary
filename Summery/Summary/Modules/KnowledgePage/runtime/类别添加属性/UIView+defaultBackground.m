@@ -12,12 +12,18 @@
 @dynamic defaultColor;
 static char kDefaultColor;
 -(void)setDefaultColor:(UIColor *)defaultColor{
+    
     objc_setAssociatedObject(self, &kDefaultColor, defaultColor, OBJC_ASSOCIATION_RETAIN);
+    self.backgroundColor = defaultColor;
 }
 
 -(id)defaultColor{
    return  objc_getAssociatedObject(self, &kDefaultColor);
 }
 
+- (void)removeAssociatedDefaultColor {
+    
+    objc_removeAssociatedObjects(self);
+}
 @end
 

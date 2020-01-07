@@ -4,7 +4,7 @@
 //
 //  Created by 路岗 on 2019/1/17.
 //  Copyright © 2019年 Gang. All rights reserved.
-//
+//通过类别给uiview 添加属性。d
 #import "UIView+defaultBackground.h"
 #import "LGGRuntimeViewController.h"
 
@@ -21,12 +21,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self visitDefaultColor];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.view removeAssociatedDefaultColor];
+        NSLog(@"self.view defaultcolor %@",self.view.defaultColor);
+    });
 }
     
 //访问通过runtime，给view类别添加的defaultcolor 属性
 - (void)visitDefaultColor{
-    self.view.defaultColor = [UIColor blackColor];
-    NSLog(@"%@",self.view.defaultColor);
+    self.view.defaultColor = [UIColor blueColor];
+    NSLog(@"defaultcolor%@",self.view.defaultColor);
 }
 
 

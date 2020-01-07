@@ -1,8 +1,8 @@
 //
-//  LGGImageRenderingTableViewCell.h
+//  LGGAddMethodManualViewController.h
 //  Summary
 //
-//  Created by 路岗 on 2019/2/13.
+//  Created by 路岗 on 2019/3/17.
 //  Copyright © 2019年 Gang. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGGImageRenderingTableViewCell : UITableViewCell
+@interface LGGAddMethodManualViewController : LGGBaseViewController
 
 @end
 

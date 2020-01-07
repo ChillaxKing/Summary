@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView(defaultColor)
 @property (nonatomic,strong)UIColor *defaultColor;
+
+- (void)removeAssociatedDefaultColor;
 @end
 
 NS_ASSUME_NONNULL_END

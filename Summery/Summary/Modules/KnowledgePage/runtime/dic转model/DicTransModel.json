@@ -1,0 +1,18 @@
+{
+  "age" : 33,
+  "workExperence" : [
+    {
+      "company" : "北京软通动力集团",
+      "time" : "2012.10-2014.10"
+    },
+    {
+      "company" : "灵思营销",
+      "time" : "2014.10-2018.10"
+    }
+  ],
+  "name" : "King",
+  "education":{
+  "university" : "枣庄学院",
+  "time":"2008.9~2010.6"
+  }
+}
