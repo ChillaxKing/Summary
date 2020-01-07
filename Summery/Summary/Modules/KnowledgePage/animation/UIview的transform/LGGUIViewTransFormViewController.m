@@ -1,59 +1,57 @@
 //
-//  LGGUIViewTranslateViewController.m
+//  LGGUIViewTransFormViewController.m
 //  Summary
 //
 //  Created by 路岗 on 2019/3/31.
 //  Copyright © 2019年 Gang. All rights reserved.
 //
 
-#import "LGGUIViewTranslateViewController.h"
+#import "LGGUIViewTransFormViewController.h"
 
-@interface LGGUIViewTranslateViewController ()
+@interface LGGUIViewTransFormViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *tranlateView;
 
-@property(nonatomic, strong) UIImageView *tranlateView;
 @end
 
-@implementation LGGUIViewTranslateViewController
+@implementation LGGUIViewTransFormViewController
 
 +(void)load{
-    LGGKnowledgeClassifyModel *model = [[LGGKnowledgeClassifyModel alloc]initWithSuperClassify:@"Translate" withTitle:@"UIview translate" withClassName:@"LGGUIViewTranslateViewController"];
+    LGGKnowledgeClassifyModel *model = [[LGGKnowledgeClassifyModel alloc]initWithSuperClassify:@"Translate" withTitle:@"UIview translate" withClassName:@"LGGUIViewTransFormViewController"];
     [[LGGKnowledgeModelManager shareManager]addModel:model];
 }
-
+- (instancetype)init{
+    self = [super initWithNibName:@"LGGUIViewTransFormViewController" bundle:[NSBundle mainBundle]];
+    
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.tranlateView = [[UIImageView alloc]init];
-    self.tranlateView.image = [UIImage imageNamed:@"bb"];
-    [self.view addSubview:self.tranlateView];
-    [self.tranlateView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.width.mas_equalTo(400);
-        make.height.mas_equalTo(400);
-        make.top.mas_equalTo(200);
-        make.centerX.mas_equalTo(self.view);
-    }];
-    
-    UIButton *transButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [transButton setTitle:@"transform" forState:UIControlStateNormal];
-    [transButton setBackgroundColor:[UIColor blueColor]];
-    [transButton addTarget:self action:@selector(transformView) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:transButton];
-    [transButton mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.width.and.height.equalTo(@50);
-        make.centerX.mas_equalTo(self.view);
-        make.top.mas_equalTo(self.view).offset(50);
-        
-    }];
-    
-    
-    
-    
-    
+   
     
 }
--(void)transformView{
+
+                                                 
+- (IBAction)translate:(id)sender {
+    //一次性改变transfrom，当发生改变后，不再生效
+    //    self.tranlateView.transform = CGAffineTransformMakeTranslation(0, 100);
     
-    self.tranlateView.transform = CGAffineTransformMakeTranslation(0, 100);
+    //在新的变形基础之上，继续动画
+    self.tranlateView.transform = CGAffineTransformTranslate(self.tranlateView.transform, 0, 100);
+}
+
+
+- (IBAction)scale:(id)sender {
+    
+    //一次性缩小
+    //    self.tranlateView.transform = CGAffineTransformMakeScale(0.5,0.5);
+    
+    //在上次基础上缩小
+    self.tranlateView.transform = CGAffineTransformScale(self.tranlateView.transform, 0.5, 0.5);
+}
+
+- (IBAction)rotate:(id)sender {
+      self.tranlateView.transform = CGAffineTransformRotate(self.tranlateView.transform, M_PI_2);
 }
 
 /*
