@@ -5,9 +5,13 @@
 //  Created by 路岗 on 2019/2/13.
 //  Copyright © 2019年 Gang. All rights reserved.
 //
-#import "LGGImageRenderingTableViewCell.h"
+#import "LGGRoundImageRenderTableViewCell.h"
+#import "LGGRoundImageRenderTableViewCell+load.h"
 #import "LGGPerfromanceTableViewController.h"
+
+
 static NSString *const kcellIdentifier = @"PERFORMANCECELL";
+static NSString *const kRoundImageRenderCell = @"LGGRoundImageRenderTableViewCell.xib";
 
 @interface LGGPerfromanceTableViewController ()
 
@@ -23,8 +27,8 @@ static NSString *const kcellIdentifier = @"PERFORMANCECELL";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.tableView registerClass:[LGGImageRenderingTableViewCell class] forCellReuseIdentifier:kcellIdentifier];
-    
+//    [self.tableView registerNib:[UINib nibWithNibName:@"LGGRoundImageRenderTableViewCell" bundle:nil]] forCellReuseIdentifier:kRoundImageRenderCell];
+    [self.tableView registerNib:[UINib nibWithNibName:@"LGGRoundImageRenderTableViewCell" bundle:nil] forCellReuseIdentifier:kRoundImageRenderCell];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -35,24 +39,17 @@ static NSString *const kcellIdentifier = @"PERFORMANCECELL";
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
     return 100;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kcellIdentifier forIndexPath:indexPath];
-    
-    // Configure the cell...
-    if (cell == nil) {
-        cell = [[LGGImageRenderingTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kcellIdentifier];
-    }
-    
+    LGGRoundImageRenderTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kRoundImageRenderCell forIndexPath:indexPath];
+    DLog(@"复用机制%p",cell);
     return cell;
 }
 
